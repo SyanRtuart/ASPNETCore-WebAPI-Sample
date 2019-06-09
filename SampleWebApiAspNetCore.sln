@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApiAspNetCore", "SampleWebApiAspNetCore\SampleWebApiAspNetCore.csproj", "{62E0EE7C-8CF6-4E04-B3A1-49A19DE3FC75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleWebApiAspNetCore", "SampleWebApiAspNetCore\SampleWebApiAspNetCore.csproj", "{62E0EE7C-8CF6-4E04-B3A1-49A19DE3FC75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{67760815-720B-4DBD-9BA5-4D05BF573AFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApiAspNetCore.Domain", "SampleWebApiAspNetCore.Domain\SampleWebApiAspNetCore.Domain.csproj", "{BBBECA1F-44EB-4C7D-B9F9-3377EED9B0FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{62E0EE7C-8CF6-4E04-B3A1-49A19DE3FC75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62E0EE7C-8CF6-4E04-B3A1-49A19DE3FC75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62E0EE7C-8CF6-4E04-B3A1-49A19DE3FC75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBBECA1F-44EB-4C7D-B9F9-3377EED9B0FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBBECA1F-44EB-4C7D-B9F9-3377EED9B0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBBECA1F-44EB-4C7D-B9F9-3377EED9B0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBBECA1F-44EB-4C7D-B9F9-3377EED9B0FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBBECA1F-44EB-4C7D-B9F9-3377EED9B0FC} = {67760815-720B-4DBD-9BA5-4D05BF573AFE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {34868541-E39B-446C-935B-C0F838B5DEC3}
