@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{67760815-7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApiAspNetCore.Domain", "SampleWebApiAspNetCore.Domain\SampleWebApiAspNetCore.Domain.csproj", "{BBBECA1F-44EB-4C7D-B9F9-3377EED9B0FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApiAspNetCore.Application", "SampleWebApiAspNetCore.Application\SampleWebApiAspNetCore.Application.csproj", "{87A9E865-34FC-4EE1-806F-57D24331B013}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{BBBECA1F-44EB-4C7D-B9F9-3377EED9B0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBBECA1F-44EB-4C7D-B9F9-3377EED9B0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBBECA1F-44EB-4C7D-B9F9-3377EED9B0FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87A9E865-34FC-4EE1-806F-57D24331B013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87A9E865-34FC-4EE1-806F-57D24331B013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87A9E865-34FC-4EE1-806F-57D24331B013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87A9E865-34FC-4EE1-806F-57D24331B013}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BBBECA1F-44EB-4C7D-B9F9-3377EED9B0FC} = {67760815-720B-4DBD-9BA5-4D05BF573AFE}
+		{87A9E865-34FC-4EE1-806F-57D24331B013} = {67760815-720B-4DBD-9BA5-4D05BF573AFE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {34868541-E39B-446C-935B-C0F838B5DEC3}
